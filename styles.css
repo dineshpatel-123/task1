@@ -1,0 +1,330 @@
+body{
+    padding: 0%;
+    margin: 0;
+   }
+   
+   li{
+       list-style: none;
+   }
+   
+   /* Section 1 */
+   
+   .section-1{
+       padding: 5%;
+       background:#352cb8  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLp3l0UMhRQYUYCvQFVCgE5AQJLs8g1ul_-A&usqp=CAU") ;
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+       color: #ffffff;  
+   }
+   
+   .section-1-heading{
+     font-size: 70px;
+     font-weight: bold;
+   }
+   
+   .section-1-paragraph{
+       font-size: 20px;
+       font-weight: bold;
+       margin: 5% 0;
+   }
+   
+   .section-1-button{
+       padding: 1% 3%;
+       border-radius: 2rem / 2rem;
+       font-size: 20px;
+       font-weight: bold;
+       outline: none;
+       border: none;
+       background: #176e20;
+   }
+   
+   .section-1-button:hover{
+       transition: 0.5s;
+       color: #ffffff;
+   }
+   
+   @media only screen and (max-width : 768px){
+       .section-1{
+          padding-right: 10%;
+          padding-left: 10%;
+       }
+       .section-1 div{
+           text-align: center;
+       }
+       .section-1-button{
+           padding: 2% 5%;
+       }
+   }
+   
+   /* section 2 */
+   
+   .section-2{
+   
+       padding: 0 8%;
+   }
+   
+   .section-2-heading{
+       text-align: center;
+   }
+   .features{
+       display: flex;
+       text-align: center;
+       margin-bottom: 20%;
+   }
+   
+   .features img{
+       width: 181px;
+       height: 181px;
+   }
+   
+   .photo-zone-1{
+       display: flex;
+   }
+   
+   .photo-zone-2{
+       display: flex;
+       margin: 15% 0;
+   }
+   
+   
+   .content{
+       width: 50%;
+       margin: 0 4%;
+   }
+   .diagram{
+       width: 50%;
+   }
+   .content button{
+       padding: 3% 7%;
+       border-radius: 6rem / 6rem;
+       outline: none;
+       margin-top: 10%;
+       border: none;
+       color: #ffffff;
+       background-color: #091959;
+   }
+   
+   .photo-zone-2 .diagram{
+        float: left; 
+   }
+   
+   @media only screen and (max-width : 768px){
+       .features{
+           display: block;  
+       }
+       .photo-zone-1{
+           display: block;
+           margin-bottom: 10%;
+           
+       }
+       .photo-zone-2{
+           display: block;
+           margin: 0;
+       }
+       .content{
+           text-align: center;
+           width: 100%;
+           margin: 0;
+       }
+       .diagram{
+           width: 100%;
+           text-align: center;
+       }
+       .section-2{
+           margin-bottom: 15%;
+       }
+   
+   }
+   
+   
+   
+   /* section 3 */
+   
+   
+   .section-3{
+       padding: 0 5%;
+   }
+   .pricing-plan{
+       display: flex;
+       text-align: center;
+   }
+   .pricing-plan ul{
+       width: 100/3%;
+   }
+   
+   .section-3 h1{
+       text-align: center;
+   }
+   
+   .section-3 ul{
+       width: 33%;
+       padding: 4%;
+   }
+   
+   .section-3-button{
+       padding: 5% 11%;
+       font-size: 15px;
+       font-weight: bold;
+       border-radius: 6rem /6rem;
+       background: #ffffff;
+       outline: none;
+       /* border: none; */
+       margin : 10% 0 15%
+   }
+   
+   .section-3-button:hover{
+       transition: 0.5s;
+       color:white;
+       background-color: black;
+   }
+    .section-3-img{
+       display: flex;
+       margin: 10% 0;
+   } 
+    .section-3-img img{
+       width: 33%;
+   } 
+    .section-3-img div{
+       display: flex;
+   } 
+   
+   .premium{
+       background-color: #091959;
+       color: #ffffff;
+   }
+   
+   .pricing-plan span{
+       font-size: 100px;
+       font-weight: bold;
+   }
+   .premium-button{
+       color: #192440;
+       outline: none;
+       border: none;
+       background-color: #00ffad;
+   }
+   
+   .premium-button:hover{
+       color: white;
+       background-color: #00ffad;
+   }
+   
+   @media only screen and (max-width : 768px){
+       .pricing-plan{
+           display: block;
+       }
+       .pricing-plan ul{
+           width: 100%;
+           padding: 10px 0 0 0;
+       }
+       .section-3-img{
+           display: block;
+       }
+       .pricing-plan button{
+           padding: 2% 5%;
+       }
+   }
+   
+   
+   
+   
+   /* section 4 */
+   
+    .section-4{
+        padding: 0 5%;
+    }
+   
+    .section-4-div-1{
+        display: flex;
+        margin-bottom: 20%;
+   
+    }
+    
+    .contact-us{
+        width: 50%;
+    }
+    .form{
+        width: 50%;
+        padding: 0 3%;
+    }
+    .address{
+        display: flex;
+    }
+    .address div {
+        width: 50%;
+        padding: 0 5%;
+    }
+   
+    .address input {
+        width: 100%;
+        padding: 3% 2%;
+        border-radius: 5px;
+    }
+    .message{
+        padding: 5%;
+    }
+    .message textarea{
+        font-size: large;
+        width: 100%;
+        border-radius: 5px;
+        padding: 1%;
+    }
+   
+    .form-button {
+        padding: 0 5%;
+    }
+    .submit-button{
+        width: 100%;
+       padding: 3% 2%;
+       font-size: large;
+       border-radius: 6rem /6rem;
+       outline: none;
+       border: none;
+       background-color: #00ffad;
+       color: #192440;
+    }
+   
+    .submit-button:hover{
+        color: #ffffff;
+    }
+   
+    .section-4-div-2{
+        display: flex;
+    }
+    .section-4-div-2 p{
+        width: 50%;
+    }
+   
+    .section-4-div-2 i{
+        float: right;
+    }
+   
+     @media only screen and (max-width : 768px){
+       
+       .section-4{
+           padding: 0 10%;
+       }
+       
+       .section-4-div-1{
+            display: block;
+        }
+        .content-us{
+            width: 100%;
+        }
+        .contact-us{
+            margin-bottom: 10%;
+        }
+   
+        .form{
+            width: 100%;
+            padding: 0;
+        }
+   
+        .address div{
+            padding: 0 10% 0 0;
+        }
+   
+        .message{
+            padding: 5% 0;
+        }
+    } 
